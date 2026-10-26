@@ -1,3 +1,4 @@
+package aplicacion;
 import vehiculos.*;
 
 public class Aplicacion {
@@ -10,8 +11,17 @@ public class Aplicacion {
 		
 		System.out.println(unVehiculoTerrestre.getVelocidadActual());*/
 		
-		VehiculoTerrestre unVehiculoTerrestre=new VehiculoTerrestre();
-		System.out.println(unVehiculoTerrestre);
+	/*	VehiculoTerrestre unVehiculoTerrestre=new VehiculoTerrestre();
+		System.out.println(unVehiculoTerrestre.getVelocidadActual());*/
+		
+	/*	Coche unCoche=new Coche();
+		System.out.println(unCoche);
+		
+		Moto unaMoto=new Moto();
+		System.out.println(unaMoto);*/
+		
+		Helicoptero h = new Helicoptero();
+		
 		
 	}
 

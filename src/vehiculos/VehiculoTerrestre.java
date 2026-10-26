@@ -1,6 +1,8 @@
 package vehiculos;
 
-public class VehiculoTerrestre extends Vehiculo {
+public abstract class VehiculoTerrestre extends Vehiculo {
+	
+	protected int numeroRuedas;
 
 	public VehiculoTerrestre(int velocidadMaxima) {
 		super(velocidadMaxima); //Constructor del padre
@@ -8,7 +10,8 @@ public class VehiculoTerrestre extends Vehiculo {
 	}
 	
 	public VehiculoTerrestre() {
-		super(); //new Vehiculo();
+		//super(); //new Vehiculo();
+		System.out.println("Se crea un VehiculoTerrestre con velocidadMaxima=1000");
 	}
 	
 	public String toString() {

@@ -1,6 +1,6 @@
 package vehiculos;
 
-public class Vehiculo {
+public abstract class Vehiculo {
 	
 	protected int velocidadMaxima, velocidadActual;
 	protected String tipoPropulsion; //electrica, mecánica (a pie,...).
