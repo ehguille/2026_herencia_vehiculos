@@ -11,7 +11,7 @@ public abstract class VehiculoAereo extends Vehiculo {
 	
 	public VehiculoAereo(int alturaMaxima) {
 		this.alturaMaxima=alturaMaxima;
-		System.out.println("Se crea un VehiculoAereo con alturaMaxima="+alturaMaxima;
+		System.out.println("Se crea un VehiculoAereo con alturaMaxima="+alturaMaxima);
 	}
 
 }
